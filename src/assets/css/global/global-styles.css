@@ -102,12 +102,12 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='eleventy-excellent.netlify.app']) {
+article [href^='http']:not([href*='carefree-ice.cloudvent.net']) {
   padding-inline-end: 0.8em;
 }
 
 article
-  [href^='http']:not([href*='eleventy-excellent.netlify.app']):not(.no-indicator)::after {
+  [href^='http']:not([href*='carefree-ice.cloudvent.net']):not(.no-indicator)::after {
   position: absolute;
   display: inline-block;
   inline-size: 1em;
