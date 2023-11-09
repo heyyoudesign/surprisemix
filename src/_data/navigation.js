@@ -13,8 +13,12 @@ module.exports = {
       url: '/built-with/'
     },
     {
-      text: 'Blog',
+      text: 'Ricettario',
       url: '/blog/'
+    },
+    {
+      text: 'Gallery',
+      url: '/gallery/'
     }
   ],
   bottom: [
