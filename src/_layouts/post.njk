@@ -1,0 +1,23 @@
+---
+layout: base
+schema: blog
+preloads:
+  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
+  as: 'font'
+  type: 'font/woff2'
+  crossorigin: true
+---
+
+<article class="region blog">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">{{ title }}</h1>
+
+    <!-- include tags -->
+    {% include "partials/post-tags.njk" %}
+
+    <!-- include date -->
+    {% set definedDate = date %} {% include "partials/date.njk" %}
+
+    {{ content | safe }}
+  </div>
+</article>
