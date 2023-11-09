@@ -1,14 +1,13 @@
 ---
 permalink: /index.html
-title: 'Surprise'
-description: 'Plant based joy'
-layout: 'home'
+title: Surprise
+description: Plant based mix
+layout: home
 blog:
-  title: 'Ricettario'
-  intro: "Di seguito le ultime ricette pubblicate!"
+  title: Ricettario
+  intro: Di seguito le ultime ricette pubblicate!
 ---
-
-## Surprise
+## Plant based joy
 
 This [Eleventy](https://www.11ty.dev/) starter is based on [Andy Bell's](https://mastodon.social/@andy@bell.bz) talk 'Be the browser’s mentor, not its micromanager' and it's companion website buildexcellentwebsit.es.
 
